@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "te5025"
+version = "0.1.0"
+authors = [{name = "Đorđe Novaković", email = "djordjenovakovic@uns.ac.rs"}]
+description = "Unofficial driver for Time Electronics 5025 Calibrator"
+
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+dependencies = [
+    "pyvisa-py>=0.5.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Hepek93/TimeElectronics5025"
+
+[tool.setuptools.packages.find]
+where = ["src"]

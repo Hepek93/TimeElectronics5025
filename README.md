@@ -7,7 +7,7 @@ A Pythonic interface for the **Time Electronics 5025  Multifunction Calibrator**
 
 ## 📜 Licensing & Attribution
 This project is licensed under the **MIT License**. 
-**Important:** If you use this library, you must keep the original copyright notice. If you modify it, please attribute the original work to [Your Name]. 
+**Important:** If you use this library, you must keep the original copyright notice. If you modify it, please attribute the original work to [Đorđe Novaković](https://github.com/Hepek93). 
 
 *Note: For commercial support or custom features, please contact the author.*
 

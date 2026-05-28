@@ -16,4 +16,4 @@ The TE5025 is capable of outputting **1050V** and **22A**. This software is unof
 
 ## Installation
 ```bash
-pip install .
+pip install te5025
